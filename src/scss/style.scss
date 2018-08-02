@@ -1,3 +1,11 @@
 // Main Sass File
 
+
+// Partials
 @import "partials/reset";
+@import "partials/typography";
+@import "partials/base";
+@import "partials/colors";
+
+// Pages
+@import "pages/home";

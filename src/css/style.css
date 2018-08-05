@@ -1,35 +1,149 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
+h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol {
+  font-family: 'Lato', sans-serif; }
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
+h2 {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #00A876; }
 
-body {
-  line-height: 1; }
+h3 {
+  font-size: 1.1em;
+  font-weight: 700; }
 
-ol, ul {
-  list-style: none; }
+.container {
+  max-width: 800px; }
 
-blockquote, q {
-  quotes: none; }
+section {
+  padding: 25px 0; }
 
-blockquote:before, blockquote:after {
-  content: '';
-  content: none; }
+footer {
+  text-align: center; }
+  footer p {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    margin-top: 50px; }
 
-q:before, q:after {
-  content: '';
-  content: none; }
+ul {
+  list-style-type: none; }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
+.bulleted-list {
+  list-style-type: disc; }
 
-body, html {
-  background: red; }
+.banner {
+  background: url("./../../img/chicken-burrito.jpg") center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  min-height: 450px;
+  text-align: center; }
+
+.logo {
+  font-weight: 100;
+  color: #fff;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 15px 0;
+  border: 1px solid #fff;
+  max-width: 600px; }
+
+.tagline {
+  display: block;
+  font-weight: 100;
+  color: #fff; }
+
+.about {
+  text-align: center; }
+  .about .about__callout {
+    color: #F53500;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin: 10px 20px;
+    margin-bottom: 40px; }
+
+.menu {
+  background: #ebfff9; }
+  .menu .menu__heading {
+    width: 100%;
+    margin-top: -50px;
+    margin-bottom: 25px;
+    padding: 25px 0;
+    background: #00A876;
+    text-align: center; }
+    .menu .menu__heading p {
+      color: #fff;
+      margin-bottom: 0;
+      opacity: .8; }
+    .menu .menu__heading h2 {
+      border: none;
+      color: #fff;
+      font-weight: 700; }
+  .menu h3 {
+    text-align: center;
+    border-bottom: 1px solid #999;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+    font-size: 1.3em; }
+    .menu h3 .menu--step {
+      display: inline-block;
+      margin-bottom: 15px;
+      padding: 10px 15px;
+      background: #00A876;
+      font-size: .7em;
+      text-transform: uppercase;
+      border-radius: 2px;
+      color: #fff; }
+  .menu ul {
+    color: #777; }
+  .menu .ordering-visuals {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .menu .ordering-visuals img[src*="burrito"] {
+      max-width: 110px; }
+    .menu .ordering-visuals p {
+      position: relative;
+      left: 15px;
+      font-size: 1.3em;
+      color: #333; }
+  .menu .ingredient-list li:first-child {
+    color: #FF4B19;
+    font-weight: 700; }
+
+.ordering-methods {
+  text-align: center; }
+  .ordering-methods .fas {
+    font-size: 2.5em;
+    margin: 15px 0; }
+
+.social-media-icons i {
+  transition: all .3s;
+  background: gray;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  min-width: 50px;
+  margin-right: 15px;
+  margin-bottom: 20px; }
+  a:last-child .social-media-icons i {
+    margin-right: 0; }
+  .social-media-icons i[class*="facebook"] {
+    background: #3B5998; }
+  .social-media-icons i[class*="twitter"] {
+    background: #0084FF; }
+  .social-media-icons i[class*="yelp"] {
+    background: #c41200; }
+  .social-media-icons i[class*="pinterest"] {
+    background: #C92228; }
+  .social-media-icons i:hover {
+    opacity: .8; }
+
+#map {
+  height: 100%;
+  min-height: 370px;
+  padding-bottom: 25px; }

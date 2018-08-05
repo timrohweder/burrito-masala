@@ -4,22 +4,26 @@
 <head>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,400,700" rel="stylesheet">
   <title>Burrito Masala</title>
 </head>
 
 <body>
-  <header class="row banner">
+  <header class="banner">
+    <div class="container">
       <h1 class="logo">Burrito Masala</h1>
-      <h2 class="tagline">Located in downtown Portland, OR</h2>
+      <p class="tagline">Located in downtown Portland, OR</p>
+    </div>
   </header>
 
   <main>
-    <section class="row about">
-      <div class="col-sm-12">
-        <p>Our food cart blends seamlessy Southern Indian and Mexican into one delicious cuisine.</p>
+    <section class="about">
+      <div class="container">
+        <p class="about__callout">Our food cart seamlessly blends Southern Indian and Mexican into one delicious cuisine.</p>
         <h2>About Burrito Masala</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe placeat cupiditate iste. Totam autem omnis voluptatem
           voluptas amet? Quod aliquid ad perspiciatis optio itaque dolorem vero ullam totam, esse in magnam quas modi ipsum
@@ -28,99 +32,128 @@
       </div>
     </section>
 
-    <section class="row menu">
-      <div class="col-sm-12 menu__heading">
+    <section class="menu">
+      <div class="menu__heading">
         <h2>Our Menu</h2>
-        <h3>Just 2 simple steps to tasty town!</h3>
+        <p>Order in just two easy steps!</p>
       </div>
-      <div class="col-med-6">
-        <h3>Step 1: Choose a bowl or a burrito</h3>
-        <img src="http://via.placeholder.com/150x150" alt="">
-        <img src="http://via.placeholder.com/150x150" alt="">
-      </div>
-      <div class="col-med-6">
-        <h3>Step 2: Choose your ingredients</h3>
-        <p>Choose the following options for the burrito or bowl:</p>
-        <ul>
-          <li>- one meat or veggie option</li>
-          <li>- one rice option</li>
-          <li>- condiments</li>
-        </ul>
-        <ul>
-          <li>Meat Options</li>
-          <li>Chicken Tikka Masala</li>
-          <li>Lamb Curry</li>
-          <li>Pork in salsa verde</li>
-        </ul>
-        <ul>
-          <li>Veggie Options</li>
-          <li>Sambar (lentil curry, vegan)</li>
-          <li>Aloo gobi msalaa (potato and cauliflower, vegan)</li>
-          <li>Chile relleno (vegetarian, contains cheese)</li>
-        </ul>
-        <ul>
-          <li>Rice (all vegan)</li>
-          <li>Kerala biryani</li>
-          <li>Spanish rice</li>
-          <li>White or brown rice (khaima)</li>
-        </ul>
-        <ul>
-          <li>Toppings</li>
-          <li>Mango Chutney</li>
-          <li>Tomatillo Salsa</li>
-          <li>Raita</li>
-          <li>Grandma Nena's Fiery Red Salsa</li>
-          <li>Cheese</li>
-          <li>Sour cream</li>
-          <li>Onions</li>
-          <li>Tomatoes</li>
-          <li>Cucumbers</li>
-          <li>Cilantro</li>
-          <li>Guacamole ($.75 extra!)</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="row ordering-methods">
-      <div class="col-md-4">
-        <h3>In Person</h3>
-        <p>SW 3rd and Alder</p>
-      </div>
-      <div class="col-md-4">
-        <h3>Call Ahead</h3>
-        <p>503.555.5555</p>
-      </div>
-      <div class="col-md-4">
-        <h3>Text Us</h3>
-        <p>503.555.5555</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>
+              <span class="menu--step">Step 1:</span>
+              <br>Choose a bowl or a burrito</h3>
+            <div class="ordering-visuals">
+              <img src="img/bowl.svg" alt="A bowl">
+              <p>or</p>
+              <img src="img/burrito.svg" alt="A burrito">
+            </div>
+            <h3>
+              <span class="menu--step">Step 2:</span>
+              <br>Choose your ingredients</h3>
+            <p>Choose the following options for the burrito or bowl:</p>
+            <ul class="bulleted-list">
+              <li>one meat or veggie option</li>
+              <li>one rice option</li>
+              <li>condiments</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="ingredient-list">
+              <li>Meat Options</li>
+              <li>Chicken Tikka Masala</li>
+              <li>Lamb Curry</li>
+              <li>Pork in salsa verde</li>
+            </ul>
+            <ul class="ingredient-list">
+              <li>Veggie Options</li>
+              <li>Sambar (lentil curry, vegan)</li>
+              <li>Aloo gobi msalaa (potato and cauliflower, vegan)</li>
+              <li>Chile relleno (vegetarian, contains cheese)</li>
+            </ul>
+            <ul class="ingredient-list">
+              <li>Rice (all vegan)</li>
+              <li>Kerala biryani</li>
+              <li>Spanish rice</li>
+              <li>White or brown rice (khaima)</li>
+            </ul>
+            <ul class="ingredient-list">
+              <li>Toppings</li>
+              <li>Mango Chutney</li>
+              <li>Tomatillo Salsa</li>
+              <li>Raita</li>
+              <li>Grandma Nena's Fiery Red Salsa</li>
+              <li>Cheese</li>
+              <li>Sour cream</li>
+              <li>Onions</li>
+              <li>Tomatoes</li>
+              <li>Cucumbers</li>
+              <li>Cilantro</li>
+              <li>Guacamole ($.75 extra!)</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="row contact-info">
-      <div class="col-md-6">
-        <p>map goes here</p>
+    <section class="ordering-methods">
+      <div class="container">
+        <h2>Three Easy Ways to Order</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <i class="fas fa-user"></i>
+            <h3>In Person</h3>
+            <p class="text-muted">SW 3rd and Alder</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-phone"></i>
+            <h3>Call Ahead</h3>
+            <p class="text-muted">503.555.5555</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Text Us</h3>
+            <p class="text-muted">503.555.5555</p>
+          </div>
+        </div>
       </div>
-      <div class="col-md-6">
-        <h2>Come visit us</h2>
-        <i class="fa fa-something"></i>
-        <i class="fa fa-something"></i>
-        <i class="fa fa-something"></i>
-        <i class="fa fa-something"></i>
-        <h3>Hours of Operation
-          <</h3>
-            <p>Open 7 days a week
+    </section>
+
+    <section class="contact-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <div id="map"></div>
+          </div>
+          <div class="col-md-6">
+            <h2>Come visit us</h2>
+            <div class="social-media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-yelp"></i></a>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+
+            <h3>Hours of Operation
+            </h3>
+            <p class="text-muted">Open 7 days a week
               <br> 11:00AM to 7:00pm</p>
             <h3>Location</h3>
-            <p>Corner of SW 3rd and Alder
+            <p class="text-muted">Corner of SW 3rd and Alder
               <br> Portland, OR</p>
             <h3>Call Ahead (texts accepted)</h3>
-            <p>503-555-5555</p>
+            <p class="text-muted">503-555-5555</p>
+          </div>
+        </div>
       </div>
+
     </section>
   </main>
   <footer>
-    <p>Copyright &copy; 2018 Burrito Masala
-      <br> All Rights Reserved</p>
+    <div class="container">
+      <p class="text-muted">Copyright &copy; 2018 Burrito Masala
+        <br> All Rights Reserved</p>
+    </div>
   </footer>
 
 
@@ -128,6 +161,27 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLOTzbrqcoZMtCEHsExmBTH2V880eNSxs&callback=initMap" async
+    defer></script>
+
+  <!-- Initialize Google Maps -->
+  <script>
+    var map;
+    function initMap() {
+      const cartLocation = { lat: 45.5189024, lng: -122.6762526 };
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: cartLocation,
+        zoom: 16
+      });
+      const marker = new google.maps.Marker({
+        position: cartLocation,
+        map: map,
+        animation: google.maps.Animation.DROP,
+        title: 'SW 3rd & Alder'
+      });
+    }
+  </script>
+
 </body>
 
 </html>

@@ -1,0 +1,17 @@
+h1,h2,h3,h4,h5,h6,p,blockquote,ul,ol {
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-bottom: 3px solid $green;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+}

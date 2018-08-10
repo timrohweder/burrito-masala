@@ -33,7 +33,8 @@ ul {
   list-style-type: disc; }
 
 .banner {
-  background: url("./../../img/chicken-burrito.jpg") center center;
+  background: url("../img/chicken-burrito.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/chicken-burrito.jpg") center center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,13 +43,15 @@ ul {
   text-align: center; }
 
 .logo {
-  font-weight: 100;
+  font-weight: 400;
+  font-size: 1.7em;
   color: #fff;
   margin: 0 auto;
   margin-bottom: 20px;
   padding: 15px 0;
-  border: 1px solid #fff;
-  max-width: 600px; }
+  border: 3px solid #fff;
+  max-width: 600px;
+  text-transform: uppercase; }
 
 .tagline {
   display: block;
@@ -64,55 +67,62 @@ ul {
     margin: 10px 20px;
     margin-bottom: 40px; }
 
-.menu {
-  background: #ebfff9; }
-  .menu .menu__heading {
-    width: 100%;
-    margin-top: -50px;
-    margin-bottom: 25px;
-    padding: 25px 0;
-    background: #00A876;
-    text-align: center; }
-    .menu .menu__heading p {
-      color: #fff;
-      margin-bottom: 0;
-      opacity: .8; }
-    .menu .menu__heading h2 {
-      border: none;
-      color: #fff;
-      font-weight: 700; }
-  .menu h3 {
-    text-align: center;
-    border-bottom: 1px solid #999;
-    padding-bottom: 3px;
-    margin-bottom: 20px;
-    font-size: 1.3em; }
-    .menu h3 .menu--step {
-      display: inline-block;
-      margin-bottom: 15px;
-      padding: 10px 15px;
-      background: #00A876;
-      font-size: .7em;
-      text-transform: uppercase;
-      border-radius: 2px;
-      color: #fff; }
-  .menu ul {
-    color: #777; }
-  .menu .ordering-visuals {
-    margin-bottom: 25px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; }
-    .menu .ordering-visuals img[src*="burrito"] {
-      max-width: 110px; }
-    .menu .ordering-visuals p {
-      position: relative;
-      left: 15px;
-      font-size: 1.3em;
-      color: #333; }
-  .menu .ingredient-list li:first-child {
-    color: #FF4B19;
+.menu .menu__heading {
+  width: 100%;
+  margin-top: -50px;
+  margin-bottom: 25px;
+  padding: 25px 0;
+  background: #00A876;
+  text-align: center; }
+  .menu .menu__heading p {
+    color: #fff;
+    margin-bottom: 0;
+    opacity: .8; }
+  .menu .menu__heading h2 {
+    border: none;
+    color: #fff;
     font-weight: 700; }
+
+.menu h3 {
+  text-align: center;
+  border-bottom: 1px solid #999;
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+  font-size: 1.3em; }
+  .menu h3 .menu--step {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #00A876;
+    font-size: 1em;
+    text-transform: uppercase; }
+
+.menu ul {
+  color: #777; }
+
+.menu .ordering-visuals {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .menu .ordering-visuals img[src*="burrito"] {
+    max-width: 110px; }
+  .menu .ordering-visuals p {
+    position: relative;
+    left: 15px;
+    font-size: 1.3em;
+    color: #333; }
+
+.menu .ingredient-list--heading {
+  padding-left: 40px;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #555;
+  margin: 20px 0 15px 0; }
+
+.menu .ingredient-list li:first-child {
+  color: #FF4B19;
+  font-weight: 700; }
 
 .ordering-methods {
   text-align: center; }

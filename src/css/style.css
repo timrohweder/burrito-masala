@@ -13,9 +13,6 @@ h3 {
   font-size: 1.1em;
   font-weight: 700; }
 
-.container {
-  max-width: 800px; }
-
 section {
   padding: 25px 0; }
 
@@ -31,6 +28,16 @@ ul {
 
 .bulleted-list {
   list-style-type: disc; }
+
+@media (min-width: 800px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 1.8; }
+  li {
+    font-size: 1.3rem;
+    line-height: 1.6rem; }
+  h2 {
+    font-size: 2rem; } }
 
 .banner {
   background: url("../img/chicken-burrito.jpg") center center;
@@ -59,7 +66,8 @@ ul {
   color: #fff; }
 
 .about {
-  text-align: center; }
+  text-align: center;
+  padding: 70px 0; }
   .about .about__callout {
     color: #F53500;
     font-weight: 700;

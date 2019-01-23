@@ -19,6 +19,7 @@ https://burrito-masala.netlify.com/
 # UI/UX Documents
 I completed these documents for the PCC UI/UX class and used them to shape the Burrito Masala website according to best UI/UX practices.
 
+- [Goals and Messaging](https://docs.google.com/document/d/1y3lOo-nDDy4auLfPtQyWctX1EKDtCSGyEhNQys2BROM/edit?usp=sharing)
 - [Competitive Analysis](https://docs.google.com/document/d/1PxJbS4b-mWs_Nbka2x1zN94V2dLCGl_HE1kQExQ9b3I/edit?usp=sharing)
 - [Customer Persona #1](https://docs.google.com/document/d/19H3N4bn9vXrRuVMprW2nNR2GK50iF2n6sZww2HcUlZE/edit?usp=sharing)
 - [Customer Persona #2](https://docs.google.com/document/d/1u6eaVsqEbTct--sYWYaizbKVYFlvo2TUl6RP4yLeOrw/edit?usp=sharing)

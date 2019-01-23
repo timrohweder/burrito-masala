@@ -1,7 +1,7 @@
 # Overview
-Burrito Masala is a one-page website featuring a fictional food cart in Portland, OR. The site is coded from scratch, with the exception of a Gulp/Bootstrap boilerplate which I used from a Brad Traversy tutorial I completed a while ago.
-
-This project was completed for a PCC class in UI/UX design for my Associates in Web Design and Development.
+- Burrito Masala is a one-page website featuring a fictional food cart in Portland, OR.
+- The site is coded from scratch, with the exception of a Gulp/Bootstrap boilerplate which I used from a Brad Traversy tutorial I completed a while ago.
+- This project was completed for a PCC class in UI/UX design for my Associates in Web Design and Development.
 
 # Live Site
 https://burrito-masala.netlify.com/

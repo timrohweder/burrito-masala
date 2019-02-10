@@ -26,7 +26,7 @@ I completed these documents for the PCC UI/UX class and used them to shape the B
 - [User Journeys](https://docs.google.com/document/d/1l0c5KqPGglF_4x5WGRwI_VlKyvMBf7lBEKb6XR-WRPA/edit?usp=sharing)
 - [Mood Board](https://docs.google.com/document/d/1i_qmnhwYD-Ifse90_mRbfvefzYn5d7RuiPE88sBtFWE/edit?usp=sharing)
 - [Font Decisions](https://docs.google.com/document/d/191UaoFZg6TaHRpWKNLmyz92KTGUz6fDjz6Jr3OKXZLA/edit?usp=sharing)
-- [Color Paelette](https://docs.google.com/document/d/1iqlOVht4M1mJw7T089fSps41OtO9sLwMk887dOhGmvw/edit?usp=sharing)
+- [Color Palette](https://docs.google.com/document/d/1iqlOVht4M1mJw7T089fSps41OtO9sLwMk887dOhGmvw/edit?usp=sharing)
 - [Brand Book](https://docs.google.com/document/d/19-axr0jpHbVXFPwRf_c79ZTkiB-Ut9Q3CUrJYP7Clmc/edit?usp=sharing)
 
 
